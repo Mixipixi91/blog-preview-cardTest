@@ -1,0 +1,88 @@
+body {
+    display: grid;
+    background-color: hsl(47, 88%, 63%);
+}
+
+figure{
+    margin-inline-start: 1.2rem;
+    margin-inline-end: 1.3rem;
+}
+
+figcaption{
+    margin-top: 1.6rem;
+}
+
+#card-container {
+    font-family: Figtree;
+    justify-self: center;
+    border-radius: 5%;
+    padding: 0.5rem;
+    max-width: 25.5rem;
+    min-height: 34.5rem;
+    box-shadow: 0.5rem 0.5rem;
+    border: 0.1rem solid black;
+    background-color: white;
+}
+
+#illustration-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+h1 {
+    display: inline;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+    font-size: 0.95rem;
+    font-weight: 900;
+    background-color: hsl(47, 88%, 63%);
+}
+
+p {
+    font-weight: 600;
+    font-size: 0.98rem;
+    margin-top: 1.5rem;
+}
+
+h2{
+    cursor: pointer;
+    font-weight: 850;
+    font-size: 1.6rem;
+    line-height: 2rem;
+
+}
+
+h3{
+    font-weight: 500;
+    font-size: 1.1rem;
+    gap: 1.3rem;
+    line-height: 1.5rem;
+    color: hsl(0, 0%, 50%);
+}
+
+h4{
+    font-weight: 850;
+}
+
+#avatar-img{
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 1rem;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 0.69rem;
+    margin-top: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

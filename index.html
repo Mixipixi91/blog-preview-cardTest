@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="card-container" onclick="Function()">
+   
+    <figure>
+      <img id="illustration-img" src="images/illustration-article.svg">
+      
+      <figcaption>
+      
+        <h1>&nbsp; Learning &nbsp;&nbsp;</h1>
+
+        <p>Published 21 Dec 2023</p>
+
+        <h2 id="demo" onclick="myFunction()">HTML & CSS foundations</h2>
+        <script>
+          function myFunction() {
+            document.getElementById("demo").style.color = "hsl(47, 88%, 63%)";
+          }
+          function Function() {
+            document.getElementById("card-container").style.boxShadow = "1rem 1rem"
+          }
+        </script>
+
+        <h3>These languages are the backbone of every website, defining structure, content, and presentation.</h3>
+      </figcaption>
+    </figure>
+
+    <section>
+      <img id="avatar-img" src="images/image-avatar.webp"/>
+
+      <h4>Greg Hooper</h4>
+    </section>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mixpix91</a>.
+  </div>
+</body>
+</html>
